@@ -1,0 +1,36 @@
+import java.util.LinkedList;
+
+// 1st problem..
+public class day_30 {
+//    public static void main(String args[]) {
+//        LinkedList<String> list = new LinkedList<String>();
+//        list.add("is");
+//        list.add("a");
+//        list.addLast("list");
+//        list.addFirst("this");
+//        list.add(3, "linked");
+//        System.out.println(list);
+
+//        System.out.println(list.get(0));
+//        System.out.println(list.size());   
+//        list.remove(3);
+//        list.removeFirst();
+//        list.removeLast();
+      
+//        System.out.println(list);
+//    }
+
+// 2nd problem..
+   public static void main(String args[]) {
+      LinkedList<String> list = new LinkedList<String>();
+
+
+      list.addFirst("shradha");
+      list.addFirst("name");
+      list.addFirst("my");
+      System.out.println(list);
+     
+      list.add(2, "is");
+      System.out.println(list);
+   }
+}
